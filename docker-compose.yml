@@ -1,0 +1,8 @@
+services:
+  my-container:
+    image: iss-loc
+    container_name: iss-loc
+    volumes:
+      - type: bind
+        source: /workspaces/practice_fetch-data/data
+        target: /data
